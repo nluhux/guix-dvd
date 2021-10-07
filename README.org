@@ -1,0 +1,44 @@
+* GNU Guix 生成的随身 DVD/USBIMG/虚拟机 镜像
+
+** 生成
+
+每个人都可以使用这个仓库的代码生成一模一样的镜像:
+
+#+BEGIN_SRC shell
+  guix system build config.scm
+  guix system image -t iso9660 config.scm # 自行替换格式
+#+END_SRC
+
+
+** 使用
+
+最初的设计是生成ISO文件然后刻录在DVD上面，但是也可以写在U盘里面。
+
+刻录只读DVD的好处:
+
+1. 保护数据不被软件损坏
+2. 成本低
+
+刻录只读DVD的坏处:
+
+1. 速度低
+2. 无法更新
+3. 难以携带
+
+#+BEGIN_SRC shell
+  cdrecord dev=/dev/srX /gnu/store/xxxx.iso
+#+END_SRC
+
+写入到U盘的好处:
+
+1. 可以多次写入
+2. 容易携带
+3. 可以保存会话
+
+写入到U盘的坏处:
+
+1. 容易被篡改数据
+
+#+BEGIN_SRC shell
+  dd bs=1M if=/gnu/store/xxxx of=/dev/sdX
+#+END_SRC
