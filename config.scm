@@ -148,7 +148,6 @@
 	     ntp ;; 校时
 	     cataclysm-dda nethack cmatrix gtypist tintin++ curseofwar ;; 游戏
 	     picocom putty ;; 串口工具
-	     filezilla ;; ftp 工具
 	     )
 	    %base-packages))
  (services (append
