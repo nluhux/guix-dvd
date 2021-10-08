@@ -44,6 +44,7 @@
 	     (gnu packages ed)
 	     (gnu packages games)
 	     (gnu packages ftp)
+	     (gnu packages gdb)
 	     (gnu services base)
 	     (gnu services xorg)
 	     (gnu services networking)
@@ -148,6 +149,11 @@
 	     ntp ;; 校时
 	     cataclysm-dda nethack cmatrix gtypist tintin++ curseofwar ;; 游戏
 	     picocom putty ;; 串口工具
+	     macchanger ;; MAC地址更改工具
+	     strace ltrace gdb  ;; 调试工具
+	     iperf ;; 链路速度测试
+	     nmap ;; 网络扫描工具
+	     aircrack-ng iw wireless-tools wpa-supplicant ;; 80211无线网络工具
 	     )
 	    %base-packages))
  (services (append
