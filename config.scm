@@ -154,6 +154,7 @@
 	     iperf ;; 链路速度测试
 	     nmap ;; 网络扫描工具
 	     aircrack-ng iw wireless-tools wpa-supplicant ;; 80211无线网络工具
+	     gimp ;; 图片编辑
 	     )
 	    %base-packages))
  (services (append
