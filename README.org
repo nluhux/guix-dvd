@@ -1,5 +1,7 @@
 * GNU Guix 生成的随身 DVD/USBIMG/虚拟机 镜像
 
+目的是生成一个可以随身携带的Guix System系统
+
 ** 生成
 
 每个人都可以使用这个仓库的代码生成一模一样的镜像:
@@ -8,7 +10,6 @@
   guix system build config.scm
   guix system image -t iso9660 config.scm # 自行替换格式
 #+END_SRC
-
 
 ** 使用
 
@@ -89,3 +90,14 @@ ebb7bdb9fd88214887a4c31b4d5173e9b141cbbec95e261b2f5180c881e98e374bef0223d7b81631
 **** 已知问题
 
 这里用来报告此版本出现的问题
+
+
+** 注意
+
+*** 使用这个DVD来安装Guix System
+
+可以这样做，但是请保证有足够的内存空间存放/gnu/store
+
+或者手动挂载/gnu/store服务到磁盘，参考GNU Guix源码中的cow-store服务部分
+
+
