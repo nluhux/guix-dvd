@@ -51,6 +51,7 @@
 	     (gnu services dbus)
 	     (gnu services desktop)
 	     (gnu services linux)
+	     (gnu services gimp)
 	     )
 
 
