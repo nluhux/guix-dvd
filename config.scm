@@ -62,6 +62,9 @@
  (keyboard-layout
   ;; 爱护Linux用户的手指.
   (keyboard-layout "us" #:options (list "ctrl:nocaps")))
+ (kernel-loadable-modules
+  (list
+   rtl8812au-aircrack-ng-linux-module)) ;; 还算好用的USB 5Ghz无线网络卡
 
  (kernel-arguments (append
 		    ;; rtl-sdr 需要的设置
