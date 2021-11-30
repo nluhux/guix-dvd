@@ -45,13 +45,13 @@
 	     (gnu packages games)
 	     (gnu packages ftp)
 	     (gnu packages gdb)
+	     (gnu packages gimp)
 	     (gnu services base)
 	     (gnu services xorg)
 	     (gnu services networking)
 	     (gnu services dbus)
 	     (gnu services desktop)
 	     (gnu services linux)
-	     (gnu services gimp)
 	     )
 
 
