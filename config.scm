@@ -135,7 +135,7 @@
 	     dosfstools cdrtools
 	     tcpdump wireshark ;; 抓包工具
 	     openssh dropbear ;; 远程shell工具
-	     tigervnc-client freerdp ;; 远程桌面工具
+	     tigervnc-client freerdp virt-manager ;; 远程桌面工具
 	     alsa-utils ;; 音频设置工具
 	     acpi ;; ACPI 工具
 	     cpupower  ;; CPU性能设置工具
