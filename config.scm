@@ -46,6 +46,10 @@
 	     (gnu packages ftp)
 	     (gnu packages gdb)
 	     (gnu packages gimp)
+	     (gnu packages commencement)
+	     (gnu packages code)
+	     (gnu packages texinfo)
+	     (gnu packages man)
 	     (gnu services base)
 	     (gnu services xorg)
 	     (gnu services networking)
@@ -159,6 +163,8 @@
 	     nmap ;; 网络扫描工具
 	     aircrack-ng iw wireless-tools wpa-supplicant ;; 80211无线网络工具
 	     gimp ;; 图片编辑
+	     gcc-toolchain gnu-make gdb cscope ;; C 开发
+	     texinfo man-db man-pages ;; 文档
 	     )
 	    %base-packages))
  (services (append
