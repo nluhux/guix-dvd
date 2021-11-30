@@ -38,7 +38,7 @@
 
 写入到U盘的坏处:
 
-1. 容易被篡改数据
+1. 容易被篡改系统数据
 
 #+BEGIN_SRC shell
   dd bs=1M if=/gnu/store/xxxx of=/dev/sdX
